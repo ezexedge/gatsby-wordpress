@@ -6,6 +6,11 @@ export default ({pageContext}) => (
         <h1 dangerouslySetInnerHTML={{__html: pageContext.title}} />
         <div dangerouslySetInnerHTML={{__html: pageContext.content}} >
         </div>
+        <div dangerouslySetInnerHTML={{__html: pageContext.date}} >
+        </div>
+        <div>
+            {pageContext.content}
+        </div>
 
     </Layout>
 )
