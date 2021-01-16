@@ -57,9 +57,9 @@
            // Gatsby uses Redux to manage its internal state.
            // Plugins and sites can use functions like "createPage"
            // to interact with Gatsby.
-           console.log('---------------------------------')
-          console.log(edge.node.title , edge.node.template)
-          console.log('---------------------------------')
+         //  console.log('---------------------------------')
+          //console.log(edge.node.title , edge.node.template)
+          //console.log('---------------------------------')
 
           createPage({
              // Each page is required to have a `path` as well
